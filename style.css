@@ -1,0 +1,31 @@
+body{
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+}
+svg {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+#tooltip{
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  color: rgb(56, 58, 74);
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.dot:hover {
+  fill: rgb(221, 221, 221)
+}
+g{
+  color: rgb(221, 221, 221)
+}
+#title {
+  fill: white;
+}
